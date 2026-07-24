@@ -42,7 +42,7 @@ PrimeVul and the OOD benchmark.
 │   ├── reconstructed_test_{norm,no_norm,abstract}.jsonl   robustness variants
 │   └── ood_benchmark.jsonl                                OOD test set (from RevisitVD)
 ├── finetune/
-│   ├── V_Simple_Finetune_SLMs.py      CodeBERT / UniXCoder / PDBERT training
+│   ├── V_Simple_Finetune_SLMs.py      CodeBERT / UniXCoder training
 │   ├── V_Simple_Finetune_LLMs.py      QLoRA training for the 4 LLMs
 │   ├── model.py                       SLM model wrapper (used by the SLM script)
 │   ├── dataset_perturbation.py        generates the norm/abstract test variants
@@ -74,12 +74,16 @@ source .venv/bin/activate   # or .venv\Scripts\activate on Windows
 pip install -r requirements.txt
 ```
 
-Fine-tuning was run on 4x A100 80G GPUs; the conformity extension's vLLM
-inference was run on a single GPU. See the inline comments in
-`finetune/V_Simple_Finetune_LLMs.py` and `finetune/run_llm_robustness_ood.sh`
-for the exact per-script hardware/environment assumptions (e.g. `HF_HOME`
-cache location) -- adjust these to your own machine.
+## Hardware
 
+- **SLM fine-tuning** (CodeBERT, UniXCoder): Google Colab, NVIDIA A100
+  and H100 GPUs.
+- **LLM fine-tuning** (DeepSeek-Coder-6.7B, Qwen2.5-Coder-7B,
+  Phi-3.5-mini, CodeLlama-7B) and all robustness/OOD evaluation: a
+  single NVIDIA A100X-20C virtualized GPU (20 GiB VRAM) on a
+  Jetstream2 instance. The 20 GiB VRAM ceiling is why QLoRA (4-bit
+  quantization) was used for the LLM fine-tuning rather than
+  full-parameter updates.
 ### Fine-tuning pipeline
 
 ```bash
