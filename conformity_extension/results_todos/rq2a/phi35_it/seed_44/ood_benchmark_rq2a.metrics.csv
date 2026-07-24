@@ -1,0 +1,6 @@
+model,seed,source_file,condition,n,acc_r1,acc_r2,delta_acc,rev_pct,harm_pct,ben_pct,mean_dC,skipped
+phi35_it,44,ood_benchmark_rq2a.jsonl,rq2a_commit0,500,50.2,50.2,0.0,0.0,0.0,0.0,0.0,
+phi35_it,44,ood_benchmark_rq2a.jsonl,rq2a_commit2,500,50.2,49.8,-0.4,1.2,1.59,0.8,0.0,
+phi35_it,44,ood_benchmark_rq2a.jsonl,rq2a_commit4,500,50.2,50.4,0.2,3.0,2.79,3.21,0.0,
+phi35_it,44,ood_benchmark_rq2a.jsonl,rq2a_commit6,500,50.2,49.8,-0.4,2.0,2.39,1.61,0.0,
+phi35_it,44,ood_benchmark_rq2a.jsonl,ALL,2000,50.2,50.05,-0.15,1.55,1.69,1.41,0.0,0

@@ -1,0 +1,6 @@
+model,seed,source_file,condition,n,acc_r1,acc_r2,delta_acc,rev_pct,harm_pct,ben_pct,mean_dC,skipped
+mistral_it,42,geometric_shapes.jsonl,rq2a_commit0,250,10.0,2.4,-7.6,82.4,76.0,0.0,-5.732,
+mistral_it,42,geometric_shapes.jsonl,rq2a_commit2,246,10.16,21.54,11.38,47.97,8.0,13.57,-0.8699,
+mistral_it,42,geometric_shapes.jsonl,rq2a_commit4,245,9.8,23.27,13.47,56.33,20.83,17.19,-0.0898,
+mistral_it,42,geometric_shapes.jsonl,rq2a_commit6,241,10.37,26.97,16.6,69.71,20.0,20.83,-0.3361,
+mistral_it,42,geometric_shapes.jsonl,ALL,982,10.08,18.43,8.35,64.15,31.31,12.8,-1.7821,18

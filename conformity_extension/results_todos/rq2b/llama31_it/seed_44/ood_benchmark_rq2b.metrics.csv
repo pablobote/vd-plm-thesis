@@ -1,0 +1,12 @@
+model,seed,source_file,condition,n,acc_r1,acc_r2,delta_acc,rev_pct,harm_pct,ben_pct,mean_dC,skipped
+llama31_it,44,ood_benchmark_rq2b.jsonl,rq2b_auth1_correct,500,53.0,45.8,-7.2,30.4,35.47,24.68,-1.188,
+llama31_it,44,ood_benchmark_rq2b.jsonl,rq2b_auth1_wrong,500,53.0,54.8,1.8,35.4,31.7,39.57,-0.846,
+llama31_it,44,ood_benchmark_rq2b.jsonl,rq2b_auth2_correct,500,53.0,46.4,-6.6,30.6,35.09,25.53,-0.972,
+llama31_it,44,ood_benchmark_rq2b.jsonl,rq2b_auth2_wrong,500,53.0,50.6,-2.4,32.8,33.21,32.34,-0.718,
+llama31_it,44,ood_benchmark_rq2b.jsonl,rq2b_auth3_correct,500,53.0,52.6,-0.4,32.8,31.32,34.47,-0.47,
+llama31_it,44,ood_benchmark_rq2b.jsonl,rq2b_auth3_wrong,500,53.0,45.6,-7.4,31.0,36.23,25.11,-0.532,
+llama31_it,44,ood_benchmark_rq2b.jsonl,rq2b_auth4_correct,500,53.0,56.4,3.4,36.2,30.94,42.13,-0.158,
+llama31_it,44,ood_benchmark_rq2b.jsonl,rq2b_auth4_wrong,500,53.0,44.4,-8.6,31.4,37.74,24.26,-0.308,
+llama31_it,44,ood_benchmark_rq2b.jsonl,rq2b_auth5_correct,500,53.0,54.6,1.6,34.8,31.32,38.72,-0.074,
+llama31_it,44,ood_benchmark_rq2b.jsonl,rq2b_auth5_wrong,500,53.0,45.2,-7.8,31.0,36.6,24.68,-0.292,
+llama31_it,44,ood_benchmark_rq2b.jsonl,ALL,5000,53.0,49.64,-3.36,32.64,33.96,31.15,-0.5558,0

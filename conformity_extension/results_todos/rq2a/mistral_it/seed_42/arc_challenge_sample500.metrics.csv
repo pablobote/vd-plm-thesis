@@ -1,0 +1,6 @@
+model,seed,source_file,condition,n,acc_r1,acc_r2,delta_acc,rev_pct,harm_pct,ben_pct,mean_dC,skipped
+mistral_it,42,arc_challenge_sample500.jsonl,rq2a_commit0,478,73.85,58.37,-15.48,25.31,24.36,9.6,-2.7845,
+mistral_it,42,arc_challenge_sample500.jsonl,rq2a_commit2,442,73.76,50.68,-23.08,40.95,39.57,23.28,-1.1109,
+mistral_it,42,arc_challenge_sample500.jsonl,rq2a_commit4,427,73.3,38.41,-34.89,55.04,56.55,24.56,-1.4239,
+mistral_it,42,arc_challenge_sample500.jsonl,rq2a_commit6,405,73.58,35.8,-37.78,60.49,62.08,29.91,-1.4346,
+mistral_it,42,arc_challenge_sample500.jsonl,ALL,1752,73.63,46.35,-27.28,44.63,44.73,21.43,-1.7186,248

@@ -1,0 +1,12 @@
+model,seed,source_file,condition,n,acc_r1,acc_r2,delta_acc,rev_pct,harm_pct,ben_pct,mean_dC,skipped
+qwen25_it,43,ood_benchmark_rq2b.jsonl,rq2b_auth1_correct,500,56.8,45.4,-11.4,46.6,51.06,40.74,0.776,
+qwen25_it,43,ood_benchmark_rq2b.jsonl,rq2b_auth1_wrong,500,56.8,54.8,-2.0,48.4,44.37,53.7,0.808,
+qwen25_it,43,ood_benchmark_rq2b.jsonl,rq2b_auth2_correct,500,56.8,57.6,0.8,39.6,34.15,46.76,0.78,
+qwen25_it,43,ood_benchmark_rq2b.jsonl,rq2b_auth2_wrong,500,56.8,42.8,-14.0,41.2,48.59,31.48,0.792,
+qwen25_it,43,ood_benchmark_rq2b.jsonl,rq2b_auth3_correct,500,56.8,69.8,13.0,35.0,19.37,55.56,0.812,
+qwen25_it,43,ood_benchmark_rq2b.jsonl,rq2b_auth3_wrong,500,56.8,32.8,-24.0,42.4,58.45,21.3,0.788,
+qwen25_it,43,ood_benchmark_rq2b.jsonl,rq2b_auth4_correct,500,56.8,78.4,21.6,38.0,14.44,68.98,0.796,
+qwen25_it,43,ood_benchmark_rq2b.jsonl,rq2b_auth4_wrong,500,56.8,22.8,-34.0,46.4,70.77,14.35,0.796,
+qwen25_it,43,ood_benchmark_rq2b.jsonl,rq2b_auth5_correct,500,56.8,80.2,23.4,44.2,18.31,78.24,0.846,
+qwen25_it,43,ood_benchmark_rq2b.jsonl,rq2b_auth5_wrong,500,56.8,19.0,-37.8,55.4,82.04,20.37,0.78,
+qwen25_it,43,ood_benchmark_rq2b.jsonl,ALL,5000,56.8,50.36,-6.44,43.72,44.15,43.15,0.7974,0

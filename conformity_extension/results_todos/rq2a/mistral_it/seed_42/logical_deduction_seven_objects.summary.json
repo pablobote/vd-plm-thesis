@@ -1,0 +1,35 @@
+{
+  "study_variant": "base",
+  "model_id": "mistral_it",
+  "model_name": "mistralai/Mistral-7B-Instruct-v0.3",
+  "input_path": "/home/exouser/pablo/Easier-to-Mislead-Than-to-Correct/perturbed_dataset/rq2/rq2a/data/logical_deduction_seven_objects.jsonl",
+  "output_path": "results/rq2a/mistral_it/seed_42/logical_deduction_seven_objects.jsonl",
+  "n_input_rows": 1000,
+  "n_output_rows": 1000,
+  "n_original_instances": 250,
+  "processed_original_instances": 250,
+  "n_rounds": 2,
+  "round_names": [
+    "before",
+    "after"
+  ],
+  "batch_size": 64,
+  "max_attempts": 5,
+  "max_tokens": 32,
+  "temperature": 0.0,
+  "retry_temperature_step": 0.1,
+  "seed": 42,
+  "save_every": 50,
+  "elapsed_seconds": 38.48,
+  "completed": true,
+  "error_message": null,
+  "failed_row_indices_before": [],
+  "failed_row_indices_after": [
+    237,
+    240,
+    478,
+    592,
+    788,
+    846
+  ]
+}

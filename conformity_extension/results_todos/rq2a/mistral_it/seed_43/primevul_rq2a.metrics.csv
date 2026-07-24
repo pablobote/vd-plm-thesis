@@ -1,0 +1,6 @@
+model,seed,source_file,condition,n,acc_r1,acc_r2,delta_acc,rev_pct,harm_pct,ben_pct,mean_dC,skipped
+mistral_it,43,primevul_rq2a.jsonl,rq2a_commit0,499,55.91,55.51,-0.4,0.4,0.72,0.0,-0.2465,
+mistral_it,43,primevul_rq2a.jsonl,rq2a_commit2,498,55.62,54.02,-1.61,3.21,4.33,1.81,-0.0924,
+mistral_it,43,primevul_rq2a.jsonl,rq2a_commit4,499,55.91,55.31,-0.6,4.21,4.3,4.09,-0.004,
+mistral_it,43,primevul_rq2a.jsonl,rq2a_commit6,498,55.62,54.62,-1.0,2.21,2.89,1.36,0.1627,
+mistral_it,43,primevul_rq2a.jsonl,ALL,1994,55.77,54.86,-0.9,2.51,3.06,1.81,-0.0451,6

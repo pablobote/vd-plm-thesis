@@ -1,0 +1,24 @@
+# Fine-tuning pipeline (finetune/) -- SLMs (CodeBERT, UniXCoder) and
+# LLMs (DeepSeek-Coder-6.7B, Qwen2.5-Coder-7B, Phi-3.5-mini, CodeLlama-7B) via QLoRA.
+torch>=2.1.0
+transformers>=4.40.0
+accelerate>=0.30.0
+peft>=0.10.0
+bitsandbytes>=0.43.0
+scikit-learn>=1.3.0
+tqdm>=4.65.0
+
+# Optional: only needed if reproducing checkpoints with DeepSpeed ZeRO
+# (finetune/deepspeed.yml, finetune/zero_to_fp32.py). The scripts in this
+# repo run plain single-GPU QLoRA by default and do not require it.
+# deepspeed>=0.14.0
+
+# Conformity extension (conformity_extension/) -- zero-shot inference with vLLM.
+vllm>=0.4.0
+
+# Data analysis / visualization (both components' notebooks).
+numpy>=1.24.0
+pandas>=2.0.0
+matplotlib>=3.7.0
+seaborn>=0.12.0
+jupyter>=1.0.0

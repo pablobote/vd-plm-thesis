@@ -1,0 +1,6 @@
+model,seed,source_file,condition,n,acc_r1,acc_r2,delta_acc,rev_pct,harm_pct,ben_pct,mean_dC,skipped
+mistral_it,42,logical_deduction_seven_objects.jsonl,rq2a_commit0,250,36.8,20.0,-16.8,80.4,71.74,15.19,-5.388,
+mistral_it,42,logical_deduction_seven_objects.jsonl,rq2a_commit2,248,36.29,47.18,10.89,47.18,17.78,27.22,-0.3306,
+mistral_it,42,logical_deduction_seven_objects.jsonl,rq2a_commit4,249,36.55,31.73,-4.82,58.23,43.96,17.72,0.2691,
+mistral_it,42,logical_deduction_seven_objects.jsonl,rq2a_commit6,247,36.84,25.91,-10.93,75.3,62.64,19.23,-0.5344,
+mistral_it,42,logical_deduction_seven_objects.jsonl,ALL,994,36.62,31.19,-5.43,65.29,49.18,19.84,-1.503,6

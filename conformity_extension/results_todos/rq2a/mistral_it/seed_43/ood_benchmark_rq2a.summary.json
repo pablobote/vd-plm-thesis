@@ -1,0 +1,31 @@
+{
+  "study_variant": "base",
+  "model_id": "mistral_it",
+  "model_name": "mistralai/Mistral-7B-Instruct-v0.3",
+  "input_path": "/home/exouser/pablo/Easier-to-Mislead-Than-to-Correct/perturbed_dataset/rq2/rq2a/data/ood_benchmark_rq2a.jsonl",
+  "output_path": "results/rq2a/mistral_it/seed_43/ood_benchmark_rq2a.jsonl",
+  "n_input_rows": 2000,
+  "n_output_rows": 2000,
+  "n_original_instances": 500,
+  "processed_original_instances": 500,
+  "n_rounds": 2,
+  "round_names": [
+    "before",
+    "after"
+  ],
+  "batch_size": 64,
+  "max_attempts": 5,
+  "max_tokens": 32,
+  "temperature": 0.0,
+  "retry_temperature_step": 0.1,
+  "seed": 43,
+  "save_every": 50,
+  "elapsed_seconds": 104.01,
+  "completed": true,
+  "error_message": null,
+  "failed_row_indices_before": [],
+  "failed_row_indices_after": [
+    769,
+    1426
+  ]
+}

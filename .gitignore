@@ -1,0 +1,36 @@
+# Model checkpoints and adapter weights (large binaries, not suited to GitHub).
+# Available on request -- see README for details.
+**/checkpoint-best-bacc/
+*.safetensors
+*.bin
+*.pt
+
+# Raw per-instance model generations for the conformity extension (large;
+# only the aggregated *.metrics.csv / *.summary.json / *_all_seeds.csv files
+# are tracked). Available on request -- see README.
+conformity_extension/results_todos/**/*.jsonl
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE / tool config
+.claude/
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# HuggingFace / model caches, in case they get created under this repo
+hf_cache/
+.cache/

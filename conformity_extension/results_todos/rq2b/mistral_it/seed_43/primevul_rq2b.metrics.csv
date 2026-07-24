@@ -1,0 +1,12 @@
+model,seed,source_file,condition,n,acc_r1,acc_r2,delta_acc,rev_pct,harm_pct,ben_pct,mean_dC,skipped
+mistral_it,43,primevul_rq2b.jsonl,rq2b_auth1_correct,499,55.71,63.53,7.82,15.83,7.19,26.7,0.2204,
+mistral_it,43,primevul_rq2b.jsonl,rq2b_auth1_wrong,500,55.8,47.8,-8.0,13.6,19.35,6.33,0.316,
+mistral_it,43,primevul_rq2b.jsonl,rq2b_auth2_correct,499,55.91,61.92,6.01,10.02,3.58,18.18,0.1904,
+mistral_it,43,primevul_rq2b.jsonl,rq2b_auth2_wrong,497,55.94,46.28,-9.66,11.27,18.71,1.83,0.2233,
+mistral_it,43,primevul_rq2b.jsonl,rq2b_auth3_correct,489,55.62,59.92,4.29,9.61,4.78,15.67,0.1922,
+mistral_it,43,primevul_rq2b.jsonl,rq2b_auth3_wrong,499,55.91,48.1,-7.82,11.02,16.85,3.64,0.1563,
+mistral_it,43,primevul_rq2b.jsonl,rq2b_auth4_correct,492,56.1,60.98,4.88,12.6,6.88,19.91,0.2033,
+mistral_it,43,primevul_rq2b.jsonl,rq2b_auth4_wrong,494,55.67,45.95,-9.72,15.38,22.55,6.39,0.1802,
+mistral_it,43,primevul_rq2b.jsonl,rq2b_auth5_correct,493,56.39,63.69,7.3,23.12,14.03,34.88,-0.1379,
+mistral_it,43,primevul_rq2b.jsonl,rq2b_auth5_wrong,490,55.71,43.27,-12.45,27.55,35.9,17.05,-0.0061,
+mistral_it,43,primevul_rq2b.jsonl,ALL,4952,55.88,54.14,-1.74,14.98,14.96,15.01,0.1543,48

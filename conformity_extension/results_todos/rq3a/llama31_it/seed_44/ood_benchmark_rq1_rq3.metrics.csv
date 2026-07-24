@@ -1,0 +1,8 @@
+model,seed,source_file,condition,n,acc_r1,acc_r2,delta_acc,rev_pct,harm_pct,ben_pct,mean_dC,skipped
+llama31_it,44,ood_benchmark_rq1_rq3.jsonl,all_correct_absent,500,51.8,43.2,-8.6,68.6,74.52,62.24,-0.02,
+llama31_it,44,ood_benchmark_rq1_rq3.jsonl,all_correct_present,500,51.8,42.8,-9.0,69.8,76.06,63.07,0.042,
+llama31_it,44,ood_benchmark_rq1_rq3.jsonl,all_wrong_absent,500,51.8,51.6,-0.2,66.6,64.48,68.88,0.11,
+llama31_it,44,ood_benchmark_rq1_rq3.jsonl,all_wrong_present,500,51.8,49.8,-2.0,66.4,66.02,66.8,0.096,
+llama31_it,44,ood_benchmark_rq1_rq3.jsonl,mixed_absent,500,51.8,47.8,-4.0,67.2,68.73,65.56,0.162,
+llama31_it,44,ood_benchmark_rq1_rq3.jsonl,mixed_present,500,51.8,47.0,-4.8,69.6,71.81,67.22,0.148,
+llama31_it,44,ood_benchmark_rq1_rq3.jsonl,ALL,3000,51.8,47.03,-4.77,68.03,70.27,65.63,0.0897,0

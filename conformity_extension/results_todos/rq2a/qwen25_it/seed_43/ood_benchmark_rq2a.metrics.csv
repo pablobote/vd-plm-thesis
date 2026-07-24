@@ -1,0 +1,6 @@
+model,seed,source_file,condition,n,acc_r1,acc_r2,delta_acc,rev_pct,harm_pct,ben_pct,mean_dC,skipped
+qwen25_it,43,ood_benchmark_rq2a.jsonl,rq2a_commit0,500,56.8,52.6,-4.2,14.6,16.55,12.04,0.244,
+qwen25_it,43,ood_benchmark_rq2a.jsonl,rq2a_commit2,500,56.8,50.2,-6.6,29.4,31.69,26.39,0.728,
+qwen25_it,43,ood_benchmark_rq2a.jsonl,rq2a_commit4,500,56.8,53.6,-3.2,28.0,27.46,28.7,0.76,
+qwen25_it,43,ood_benchmark_rq2a.jsonl,rq2a_commit6,500,56.8,51.0,-5.8,37.8,38.38,37.04,0.84,
+qwen25_it,43,ood_benchmark_rq2a.jsonl,ALL,2000,56.8,51.85,-4.95,27.45,28.52,26.04,0.643,0

@@ -1,0 +1,12 @@
+model,seed,source_file,condition,n,acc_r1,acc_r2,delta_acc,rev_pct,harm_pct,ben_pct,mean_dC,skipped
+phi35_it,43,ood_benchmark_rq2b.jsonl,rq2b_auth1_correct,500,50.2,44.6,-5.6,8.4,13.94,2.81,0.0,
+phi35_it,43,ood_benchmark_rq2b.jsonl,rq2b_auth1_wrong,500,50.2,55.8,5.6,7.2,1.59,12.85,0.0,
+phi35_it,43,ood_benchmark_rq2b.jsonl,rq2b_auth2_correct,500,50.2,50.0,-0.2,8.6,8.76,8.43,0.0,
+phi35_it,43,ood_benchmark_rq2b.jsonl,rq2b_auth2_wrong,500,50.2,51.2,1.0,7.0,5.98,8.03,0.0,
+phi35_it,43,ood_benchmark_rq2b.jsonl,rq2b_auth3_correct,500,50.2,55.4,5.2,9.6,4.38,14.86,0.0,
+phi35_it,43,ood_benchmark_rq2b.jsonl,rq2b_auth3_wrong,500,50.2,45.8,-4.4,12.8,17.13,8.43,0.0,
+phi35_it,43,ood_benchmark_rq2b.jsonl,rq2b_auth4_correct,500,50.2,59.8,9.6,11.2,1.59,20.88,0.0,
+phi35_it,43,ood_benchmark_rq2b.jsonl,rq2b_auth4_wrong,500,50.2,40.2,-10.0,12.4,22.31,2.41,0.0,
+phi35_it,43,ood_benchmark_rq2b.jsonl,rq2b_auth5_correct,500,50.2,68.6,18.4,20.0,1.59,38.55,-0.002,
+phi35_it,43,ood_benchmark_rq2b.jsonl,rq2b_auth5_wrong,500,50.2,28.8,-21.4,21.8,43.03,0.4,0.0,
+phi35_it,43,ood_benchmark_rq2b.jsonl,ALL,5000,50.2,50.02,-0.18,11.9,12.03,11.77,-0.0002,0
