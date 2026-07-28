@@ -1,4 +1,4 @@
-# Development of a Fine-Tuning and Evaluation Pipeline for Vulnerability Detection with Pre-trained Language Models
+# Design and Evaluation of a Reproducible Workflow for LLM-Based Software Vulnerability Detection
 
 Artifact repository for the Master's thesis submitted to the Illinois Institute
 of Technology, M.A.S. in Information Technology and Management.
