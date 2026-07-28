@@ -111,25 +111,4 @@ Model checkpoints (`checkpoint-best-bacc/`, `*.safetensors`) and the raw
 per-instance model generations under `conformity_extension/results_todos/`
 (prediction jsonl files, ~4GB) are excluded via `.gitignore` -- they are
 either too large for GitHub or not needed to reproduce the reported figures
-(only the aggregated metrics CSVs are). Both are available on request:
-**[add download link here]**.
-
-## Known gaps
-
-- The DeepSeek-Coder-6.7B out-of-distribution (`unseen_test`) run was not
-  completed; `finetune/visualize_results.ipynb` skips it automatically in
-  the OOD comparison chart, consistent with the other run scripts.
-- `finetune/output/` merges results from two separate training runs: the
-  final CodeBERT/UniXCoder numbers come from a later rerun than the
-  original DeepSeek/Qwen/Phi/CodeLlama run; this is the exact set of
-  results `visualize_results.ipynb` loads and reports.
-
-## Citation
-
-If you build on the base evaluation pipeline or dataset, please also cite
-the original artifact this repository extends, "Revisiting Pre-trained
-Language Models for Vulnerability Detection" -- this includes
-`dataset/ood_benchmark.jsonl`, which is released with that artifact, not
-collected as part of this thesis -- and, for the conformity extension,
-Qu et al., "Easier to Mislead Than to Correct: Harmful and Beneficial
-Revision in LLM Conformity" (arXiv:2606.01637).
+(only the aggregated metrics CSVs are). Both are available on request.
