@@ -7,7 +7,7 @@ of Technology, M.A.S. in Information Technology and Management.
 
 This repository has two components.
 
-**1. Fine-tuning evaluation pipeline (`finetune/`, `dataset/`)** -- the main
+**1. Fine-tuning evaluation pipeline (`finetune/`, `dataset/`)**. The main
 contribution. Fine-tunes and evaluates 6 pre-trained language models for
 source-code vulnerability detection on the PrimeVul dataset:
 
@@ -20,7 +20,7 @@ generalizability on an OOD benchmark (post-training-cutoff NVD CVEs, not
 used in fine-tuning) released with the base "Revisiting Pre-trained
 Language Models for Vulnerability Detection" artifact.
 
-**2. Conformity extension (`conformity_extension/`)** -- an exploratory
+**2. Conformity extension (`conformity_extension/`)**. An exploratory
 extension adapting the peer-pressure "conformity" framework from *Easier to
 Mislead Than to Correct* (Qu et al., 2026) to zero-shot vulnerability
 detection. Tests whether 4 instruction-tuned LLMs (Llama-3.1-8B, Mistral-7B,
